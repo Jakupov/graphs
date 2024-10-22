@@ -1,0 +1,19 @@
+{
+    "name": "jakupov/graphs",
+    "description": "Graphs implementation",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jakupov\\Graphs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ilyas Jakupov",
+            "email": "25123645+Jakupov@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.12"
+    }
+}

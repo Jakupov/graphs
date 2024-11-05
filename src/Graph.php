@@ -6,7 +6,7 @@ use ArrayAccess;
 use Iterator;
 
 /**
- * @implements ArrayAccess<Node|string|int, Node>
+ * @implements ArrayAccess<array-key, mixed>
  * @implements Iterator<Node|string|int, Node>
  */
 class Graph implements ArrayAccess, Iterator, \Countable
@@ -17,7 +17,7 @@ class Graph implements ArrayAccess, Iterator, \Countable
     }
 
     /**
-     * @var array<Node|string|int, Node>
+     * @var array<string|int, Node>
      */
     protected array $nodes = [];
     protected bool $weighted = false;
